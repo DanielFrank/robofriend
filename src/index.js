@@ -2,12 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'tachyons';
 import './index.css';
-import Hello from './Hello.js';
+import Card from './Card.js';
 import reportWebVitals from './reportWebVitals';
 
 
 ReactDOM.render(
-    <Hello greeting={'Hello ' + 'React Ninja'}/>,
+  <div>
+    <Card/>
+    <Card/>
+    <Card/>
+  </div>
+    ,
   document.getElementById('root')
 );
 
