@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 
 
 ReactDOM.render(
-    <Hello />,
+    <Hello greeting={'Hello ' + 'React Ninja'}/>,
   document.getElementById('root')
 );
 
